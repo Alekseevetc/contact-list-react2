@@ -13,6 +13,7 @@ import ContactDetails from './Components/ContactDetails/ContactDetails'
 import AddContact from './Components/AddContact/AddContact'
 import EditContact from './Components/EditContact/EditContact'
 import Admin from './Components/Admin/Admin'
+import Footer from './Components/Footer/Footer'
 
 const App = () => {
   return (
@@ -33,6 +34,7 @@ const App = () => {
 
           <Route component={NotFound} />
         </Switch>
+        <Footer />
       </Provider>
     </Router>
   )
